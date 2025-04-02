@@ -52,3 +52,16 @@ print(f"Onam {onam['ism'].title()}, {onam['yil']}- yilda, {onam['joy'].title()}d
 
 taomlar = {'otam': 'osh', 'onam': 'chuchvara', 'singlim':'shorva', 'ozim':'shashlik', 'akam':'dolma'}
 print(f"Otamning sevimli taomi {taomlar['otam']}, Onamniki esa {taomlar['onam']}, meniki {taomlar['ozim']}")
+
+dictionary = {'integer':'butun son', 'float':'onlik son', 'string':'matn', 'if':'agar', 'else':'yoki'}
+qiymat = input("Birorta istalgan sozni kiriting: ").lower()
+print(dictionary.get(qiymat, "Bunday soz mavjud emas"))
+
+
+dictionary = {'integer':'butun son', 'float':'onlik son', 'string':'matn', 'if':'agar', 'else':'yoki'}
+qiymat = input("Birorta istalgan sozni kiriting: ").lower()
+tarjima = dictionary.get(qiymat)
+if tarjima==None:
+    print("Bunday soz mavjud emas")
+else:
+    print(tarjima)
