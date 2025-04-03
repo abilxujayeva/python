@@ -1,4 +1,4 @@
-# if - operatori shart operatori bo'lib, berilgan shartni tekshirib malum kod blokini barajadi. 
+# if - operatori shart operatori bo'lib, berilgan shartni tekshirib malum kod blokini bajaradi. 
 # else operatori esa ifga yordamchi bolib keladi, yani kodning if qismi bajarilmasa else qismiga o'tiladi
 
 avtolar = ['damas', 'tico', 'mers', 'nexia', 'matiz', 'avtobus', 'poyezd']
@@ -20,7 +20,6 @@ if ism.lower() !='ali':
     print(f"Uzur {ism.title()}. Biz Alini kutyapmiz")
 else: 
     print("Salom, Ali")
-
 
 
 #12*6 = ?
