@@ -1,4 +1,4 @@
-# Turli xil qiymatdagi ma'lumotlarni consoleda chop etish uchun f"{}  " dan foydalanamiz
+# Turli xil qiymatdagi ma'lumotlarni consoleda chop etish uchun f"{}" dan foydalanamiz
 # \n matnni yangi qatorda chop etadi
 # \t so'zlar orasida bo'sh joy qoldirish (tab vazifasini bajaradi)
 # variable.upper() matndagi barcha harfni katta qilib beradi

@@ -1,3 +1,7 @@
+# lug'at - bu kalit-qiymat (key-value) juftliklarini saqlaydigan ma’lumot turi. Har bir elementda kalit bo‘ladi va unga mos qiymat bog‘lanadi
+# Lug‘at — bu o‘zgaruvchan, tartibsiz va unikal kalitlarga ega ma’lumotlar to‘plami. Kalitlar orqali qiymatlarga tezda murojaat qilish mumkin. 
+# .get() - metodi yordamida lug'atga murojat qilish va mavjud bolmagan kalitning o'rniga biror xabar qaytarish mumkin
+
 car_0 = {'model':'ferrari', 'rang':'qora'}
 print(car_0)
 print(car_0['model'])
