@@ -106,3 +106,15 @@ internet = {'ism':'mark sukerberg', 'yil':'1984-yil', 'asari':['facebook','whats
 mashxurlar = [ilm_fan, sanat, internet]
 for mashxur in mashxurlar:
     print(f"{mashxur['ism']}ning {mashxur['asari']}")
+
+
+kinolar = {
+    'ali': ['Terminator', 'Titanic', 'Garri poter'],
+    'vali': ['Shaytanat', 'Ming bir kecha', 'Buzgunchi'],
+    'karim': ['Chinor ostidagi duel', 'Abdullajon', 'Jannati odamlar']
+
+}
+for ism, kinolar in kinolar.items():
+    print(f"{ism.title()}ning yoqtirgan kinolari: ")
+    for kino in kinolar:
+        print(kino)
