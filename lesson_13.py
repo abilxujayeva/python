@@ -117,3 +117,104 @@
 # son = int(input("Iltimos, biror butun son kiriting: "))
 # bolinishni_tekshir(son)
 
+# def toliq_ism_yasa(ism, familiya):
+#     """Toliq ism qaytaruvchi funksiya"""
+#     toliq_ism = f"{ism} {familiya}"
+#     return toliq_ism # qiymat qaytarish uchun return operatorini ishlatamiz
+# talaba1 = toliq_ism_yasa('muzaffar', 'karimov')
+# talaba2 = toliq_ism_yasa('karim', 'muzaffarov')
+# print(f"Darsga kelmagan talabalar: {talaba1}, {talaba2}")
+
+# def toliq_ism_yasa(ism, familiya, otasining_ismi=''):
+#     """Toliq ism qaytaruvchi funksiya"""
+#     if otasining_ismi: 
+#         toliq_ism = f"{ism} {otasining_ismi} {familiya}"
+#     else:
+#         toliq_ism = f"{ism} {familiya}"
+#     return toliq_ism.title()
+# talaba1 = toliq_ism_yasa('olim','hakimov')
+# talaba2 = toliq_ism_yasa('hakim','olimov','abrorovich')
+# print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
+
+# def avto_info(kompaniya, model, rangi, korobka, yili, narhi=None):
+#     avto = {'kompaniya':kompaniya,
+#             'model':model,
+#             'rang':rangi,
+#             'korobka':korobka,
+#             'yil':yili,
+#             'narh':narhi}
+#     return avto
+# avto1 = avto_info('GM','Malibu','Qora','Avtomat',2018)
+# avto2 = avto_info('GM','Gentra','Oq','Mexanika',2016,15000)
+# avtolar = [avto1, avto2]
+# print('Onlayn bozordagi mavjud avtomashinalar:')
+# for avto in avtolar:
+#     if avto['narh']:
+#         narh = avto['narh']
+#     else:
+#         narh = "Noma'lum"
+#     print(f"{avto['rang']} {avto['model']}. Narhi: {narh}")
+
+# def oraliq(min,max):
+#     sonlar = [] 
+#     while min<max:
+#         sonlar.append(min)
+#         min += 1
+#     return sonlar
+# print(oraliq(0,10))
+# print(oraliq(10,21))
+
+
+##Amaliyot
+
+# def mijoz_info(ism, familiya, tyil, tjoy, email="", tel=None):
+#     """Mijoz haqidagi ma'lumotlarni lug'at ko'rinishida qaytaruvchi funksiya"""
+#     mijoz = {
+#         "ism": ism,
+#         "familiya": familiya,
+#         "tyil": tyil,
+#         "yoshi": 2020 - tyil,
+#         "tjoy": tjoy,
+#         "email": email,
+#         "telefon": tel,
+#     }
+#     return mijoz
+# print("Mijoz haqida ma'lumotlarni kiriting.")
+# mijozlar = []
+
+# while True:
+#     ism = input("Ismi: ")
+#     familiya = input("Familiyasi: ")
+#     tyil = int(input("Tug'ilgan yili: "))
+#     tjoy = input("Tug'ilgan joyi: ")
+#     email = input("Email: ")
+#     telefon = input("Telefon raqami: ")
+#     mijozlar.append(mijoz_info(ism, familiya, tyil, tjoy, email, telefon))
+#     javob = input("Davom etasizmi? (ha/yo'q)")
+#     if javob != "ha":
+#         break
+# print("Mijozlar:")
+# for mijoz in mijozlar:
+#     print(
+#         f"{mijoz['ism'].title()} {mijoz['familiya'].title()},"
+#         f"{mijoz['yoshi']} yoshda, telefoni: {mijoz['telefon']}"
+#     )
+
+
+
+# def kattasini_aniqla(son1, son2, son3):
+#     """Uchta sonning eng kattasini aniqlovchi funksiya"""
+#     if son1>son2 and son1>son3:
+#         print(f"Eng katta son: {son1}")
+#         return son1
+#     elif son2>son1 and son2>son3:
+#         print(f"Eng katta son: {son2}")
+#         return son2
+#     else:
+#         print(f"Eng katta son: {son3}")
+#         return son3
+# son1 = int(input("Birinchi sonni kiriting: "))
+# son2 = int(input("Ikkinchi sonni kiriting: "))
+# son3 = int(input("Uchinchi sonni kiriting: "))
+# kattasini_aniqla = kattasini_aniqla(son1, son2, son3)
+

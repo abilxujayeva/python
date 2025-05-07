@@ -78,7 +78,7 @@ while son<10:
 
 
 
-Amaliyot
+# Amaliyot
 savol = "Yoqtirgan kitobingiz qaysi? "
 savol+="(jarayonni to`xtatish uchun 'stop' deb kiriting)"
 
@@ -177,7 +177,7 @@ while talabalar:
     baholahngan_talabalar[talaba]=baho
 print(baholahngan_talabalar)
 
-Amaliyot. 
+# Amaliyot. 
 buyurtmalar = []
 while True:
     buyurtma = input("Nima buyurtma qilasiz? ")
